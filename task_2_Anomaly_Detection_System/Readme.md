@@ -2,8 +2,6 @@
 
 A full-stack anomaly detection pipeline that processes time-series CPU utilization data in real-time using statistical methods and machine learning models. The system includes FastAPI backend, Streamlit dashboard, and database storage for historical anomaly tracking.
 
----
-
 ## 📌 Features
 
 - Real-time / near real-time data streaming
@@ -16,7 +14,6 @@ A full-stack anomaly detection pipeline that processes time-series CPU utilizati
 - Database storage for historical anomaly records
 - Modular and scalable architecture
 
----
 
 ## 📊 Dataset
 
@@ -27,7 +24,6 @@ A full-stack anomaly detection pipeline that processes time-series CPU utilizati
 
 The dataset is processed in real-time to simulate metric ingestion.
 
----
 
 ## 🏗️ System Architecture
 
@@ -38,7 +34,6 @@ The dataset is processed in real-time to simulate metric ingestion.
 5. Storage Layer (SQLite/PostgreSQL for anomaly records)
 6. Visualization Layer (Streamlit dashboard)
 
----
 
 ## ⚙️ Tech Stack
 
@@ -51,7 +46,7 @@ The dataset is processed in real-time to simulate metric ingestion.
 - SQLAlchemy
 - SQLite / PostgreSQL
 
----
+
 
 ## 🚀 API Endpoints
 
@@ -68,8 +63,6 @@ GET /pyod
 GET /stream
 
 Returns live processed data with anomaly flags.
-
----
 
 ## 📡 Real-Time Streaming Output Example
 
