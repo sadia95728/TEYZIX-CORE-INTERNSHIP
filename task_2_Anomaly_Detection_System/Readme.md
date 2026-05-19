@@ -47,7 +47,6 @@ The dataset is processed in real-time to simulate metric ingestion.
 - SQLite / PostgreSQL
 
 
-
 ## 🚀 API Endpoints
 
 ### Data Loading
@@ -65,6 +64,15 @@ GET /stream
 Returns live processed data with anomaly flags.
 
 ## 📡 Real-Time Streaming Output Example
+
+```json
+{
+  "timestamp": "5/14/2014 1:14",
+  "value": 85.83,
+  "anomaly": true,
+  "zscore_flag": true,
+  "isolation_flag": true
+}
 
 
 app/
