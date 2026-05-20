@@ -1,9 +1,7 @@
 # 🚨 Real-Time Anomaly Detection System
-
 A full-stack anomaly detection pipeline that processes time-series CPU utilization data in real-time using statistical methods and machine learning models. The system includes FastAPI backend, Streamlit dashboard, and database storage for historical anomaly tracking.
 
-## 📌 Features
-
+##  Features
 - Real-time / near real-time data streaming
 - Multiple anomaly detection methods:
   - Statistical Method (Z-Score)
@@ -15,8 +13,7 @@ A full-stack anomaly detection pipeline that processes time-series CPU utilizati
 - Modular and scalable architecture
 
 
-## 📊 Dataset
-
+##  Dataset
 - CPU utilization time-series dataset provided for evaluation
 - Columns:
   - timestamp
@@ -25,8 +22,7 @@ A full-stack anomaly detection pipeline that processes time-series CPU utilizati
 The dataset is processed in real-time to simulate metric ingestion.
 
 
-## 🏗️ System Architecture
-
+##  System Architecture
 1. Data Ingestion Layer (CSV-based streaming simulation)
 2. Processing Layer (Preprocessing + ML models)
 3. Detection Layer (Statistical + ML + PyOD)
@@ -36,7 +32,6 @@ The dataset is processed in real-time to simulate metric ingestion.
 
 
 ## ⚙️ Tech Stack
-
 - Python 3.10+
 - FastAPI
 - Pandas, NumPy
@@ -48,7 +43,6 @@ The dataset is processed in real-time to simulate metric ingestion.
 
 
 ## 🚀 API Endpoints
-
 ### Data Loading
 GET /load-data
 
@@ -63,7 +57,7 @@ GET /stream
 
 Returns live processed data with anomaly flags.
 
-## 📡 Real-Time Streaming Output Example
+##  Real-Time Streaming Output Example
 
 ```json
 {
@@ -102,5 +96,9 @@ dataset/
 main.py
 
 
+## 🎥 Demo Video
 
+Watch the full working demo of the Real-Time Anomaly Detection System:
+
+👉 [Click here to view demo video](https://drive.google.com/file/d/10rqS8lnezky95POfQb85uV84JRHaO26n/view?usp=sharing)
 
