@@ -98,7 +98,6 @@ main.py
 
 ## 🎥 Demo Video
 
-Watch the full working demo of the Real-Time Anomaly Detection System:
+Click below to watch the full project demo:
 
-👉 [Click here to view demo video](https://drive.google.com/file/d/10rqS8lnezky95POfQb85uV84JRHaO26n/view?usp=sharing)
-
+🔗 [Real-Time Anomaly Detection Demo](https://drive.google.com/file/d/10rqS8lnezky95POfQb85uV84JRHaO26n/view?usp=sharing)
