@@ -159,8 +159,6 @@ Benefits:
 * Better marketing targeting
 * Revenue optimization
 
----
-
 # ▶️ How to Run the Project
 
 ## Install Requirements
@@ -177,13 +175,15 @@ python main.py
 # Dashboard & Screenshots
 
 Project screenshots and dashboard outputs are available in the `screenshot/` folder.
-# 👩‍💻 Author
 
-## Sadia Salamat
 
-BS Computer Science Student
-Minahj University Lahore
-Passionate about Machine Learning, AI, Deep learning, and Deployment.
+## 👩‍💻 Author
+
+Sadia Salamat    
+BS Computer Science Student    
+Minhaj University Lahore    
+
+Passionate about Machine Learning, Artificial Intelligence, Deep Learning, and Deployment of real-world AI systems.
 # 📌 Conclusion
 
 This project demonstrates a complete industry-style churn prediction system integrating machine learning, explainable AI, database systems, business analytics, and automation into a single reproducible pipeline.
