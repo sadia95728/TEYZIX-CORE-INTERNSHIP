@@ -1,0 +1,11 @@
+Customer_ID,Call_Duration,Complaints,Call_Status,Churn_Risk
+CUST_1001,7,3,Resolved,Low
+CUST_1002,11,4,Resolved,Low
+CUST_1003,10,2,Escalated,Low
+CUST_1004,11,4,Escalated,Medium
+CUST_1005,5,1,Pending,Medium
+CUST_1006,2,3,Resolved,High
+CUST_1007,12,1,Pending,High
+CUST_1008,12,0,Resolved,Low
+CUST_1009,11,1,Escalated,Medium
+CUST_1010,14,2,Escalated,High
